@@ -24,11 +24,18 @@ Python 3.10–3.12 is required because TensorFlow support commonly lags the newe
 
 ### Team quick start (fresh clone)
 
-Install Python 3.10–3.12 and the current Node.js LTS release, then run:
+Install Python 3.10–3.12 and the current Node.js LTS release, then run on macOS/Linux:
 
 ```bash
 ./scripts/team_first_run.sh
 ./scripts/start_local_web.sh
+```
+
+On Windows PowerShell, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\team_first_run.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\start_local_web.ps1
 ```
 
 The first command creates the local environments, generates the clearly labelled synthetic CEIT dataset, trains the demonstration ANN, prompts you to choose a local administrator password, and seeds demonstration records. Open `http://localhost:3000` and sign in with `admin@mtu.local` and the password you chose. Generated data, model artifacts, the database, and passwords are not committed to Git.

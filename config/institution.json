@@ -1,0 +1,16 @@
+{
+  "institution": "Mandalay Technological University",
+  "department": "Computer Engineering and Information Technology",
+  "department_code": "CEIT",
+  "deployment_scope": "departmental_pilot",
+  "academic_levels": [
+    {"year": 1, "semester": 1, "label": "First Year"},
+    {"year": 2, "semester": 1, "label": "Second Year"},
+    {"year": 3, "semester": 1, "label": "Third Year"},
+    {"year": 4, "semester": 1, "label": "Fourth Year"},
+    {"year": 5, "semester": 1, "label": "Fifth Year · First Semester"},
+    {"year": 5, "semester": 2, "label": "Fifth Year · Second Semester"},
+    {"year": 6, "semester": 1, "label": "Final Year"}
+  ],
+  "mtu_validation_status": "awaiting_approved_dataset"
+}

@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+*.egg-info/
+.ipynb_checkpoints/
+artifacts/
+data/*.csv
+data/*.zip
+data/**/*.csv
+data/**/*.zip
+data/*.db
+data/*.db-shm
+data/*.db-wal
+!data/.gitkeep
+web/node_modules/
+web/.vinext/
+web/dist/
+web/.wrangler/
+web/.env*
+!web/.env.example
+~$*
+web/app/globals 2.css
+web/app/page 2.tsx
+outputs/presentation/*.inspect.ndjson

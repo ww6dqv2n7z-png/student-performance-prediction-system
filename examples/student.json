@@ -1,0 +1,13 @@
+{
+  "gender": "female",
+  "age": 17,
+  "attendance": 92,
+  "study_time": 8,
+  "previous_grade": 72,
+  "internet_access": "yes",
+  "family_support": "yes",
+  "absences": 3,
+  "participation": 80,
+  "homework_completion": 90
+}
+

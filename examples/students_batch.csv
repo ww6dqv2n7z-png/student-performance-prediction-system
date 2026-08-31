@@ -1,0 +1,3 @@
+student_code,academic_year,semester,gender,age,attendance,study_time,previous_grade,internet_access,family_support,absences,participation,homework_completion
+CEIT-EXAMPLE-001,2,1,female,19,91.5,8,74,yes,yes,3,82,88
+CEIT-EXAMPLE-002,5,2,male,22,76,5,61,yes,no,11,64,70
